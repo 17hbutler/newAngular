@@ -30,29 +30,26 @@ ngDemo.config(function($routeProvider)
 
 ngDemo.controller('mainController', function($scope)
 {
-    $scope.message = 'See what cool things Angular can do!';
+    $scope.message = 'Buy some stuff';
 });
 
 ngDemo.controller('clubsController', function($scope)
 {
-
+    $scope.price = 349.99;
 });
 
 ngDemo.controller('golfBallsController', function($scope)
 {
-    $scope.quantity = 1;
-    $scope.price = 12.99;
+    $scope.quantity1 = 1;
+    $scope.quantity2 = 1;
+    $scope.quantity3 = 1;
+    $scope.quantity4 = 1;
+    $scope.price1 = 12.99;
+    $scope.price2 = 12.99;
+    $scope.price3 = 10.99;
+    $scope.price4 = 10.99;
 });
 
-ngDemo.controller('accessoriesController', function($scope)
-{
-    $scope.firstName = "";
-    $scope.lastName = "";
-    $scope.fullName = function()
-    {
-        return $scope.firstName + " " + $scope.lastName;
-    }
-});
 
 $(document).on('click','.navbar-collapse.in',function(e)
 {

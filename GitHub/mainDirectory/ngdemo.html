@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><span>Angular Demo</span></a>
+            <a class="navbar-brand" href="#"><span>Hairy Butt's Super Golf Store</span></a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -28,17 +28,37 @@
                 <li><a href="#clubs"><i class="fa fa-usd"></i> Clubs</a></li>
                 <li><a href="#golfBalls"><i class="fa fa-list"></i> Golf Balls</a></li>
                 <li><a href="#accessories"><i class="fa fa-keyboard-o"></i> Accessories</a></li>
+                <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Join Hairy Butt's Team</button></li>
             </ul>
         </div>
     </div>
 </nav>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Want to Join the Team</h4>
+            </div>
+            <div class="modal-body" n>
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <div id="main">
     <div ng-view></div> <!-- this is where content will be injected -->
 </div>
 
 <footer class="text-center">
-    <h3>Mike McGuire &#169;  2016</h3>
+    <h3>Harris Butler &#169;  2016</h3>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
