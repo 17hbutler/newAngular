@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html ng-app="bookReview">
+    <head>
+       <title>Movie and Population</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.min.js"></script>
+        <script src="bookReview.js"></script>
+    </head>
+    
+    <body>
+        <header>
+			<nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Search For Movies and Population</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Movie Review</a></li>
+                        <li><a href='#/Geographic'>Population</a></li>
+                    </ul>
+                </div>
+			</nav>
+		</header>
+
+        <div class="container">
+            <div ng-view>
+                
+            </div>
+		</div>
+    </body>
+</html>
